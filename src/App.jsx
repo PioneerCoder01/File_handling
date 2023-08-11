@@ -8,8 +8,8 @@ function App() {
   return (
     <div className='app'>
       <Routes>
-        <Route path='/' Component={<Login />}></Route>
-        <Route path='/home' Component={<Home/>}></Route>
+        <Route path='/' element={<Login />}></Route>
+        <Route path='/home' element={<Home/>}></Route>
       </Routes>
     </div>
   )
