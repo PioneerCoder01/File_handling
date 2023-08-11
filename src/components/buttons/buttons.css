@@ -1,0 +1,9 @@
+button{
+    width: fit-content;
+    border: none;
+}
+
+button.gray{
+    background: var(--gray);
+    color: var(--white);
+}

@@ -1,0 +1,14 @@
+.AddPost {
+    display: flex;
+    align-items: center;
+    background: var(--gray);
+    width: fit-content;
+    padding: 7px 20px;
+    border-radius: 7px;
+    gap: .8rem;
+    cursor: pointer;
+}
+
+.AddPost img{
+    width: 30px;
+}

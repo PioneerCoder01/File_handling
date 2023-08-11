@@ -1,4 +1,12 @@
 .home{
     background: var(--bg-principale);
     height: 100vh;
+    position: relative;
+}
+
+
+.home .containerPost{
+    margin: auto;
+    width: var(--contenairThree);
+    margin: auto;
 }

@@ -16,11 +16,13 @@
   /* Color use */
   --bg-principale : #08112A;
   --white: #ffffff;
+  --gray: #404656;
 
 
   /* Contenair use */
   --contenairOne : 90%;
-  --contenairTwo : 80%
+  --contenairTwo : 80%;
+  --contenairThree : 55%;
 }
 
 img{
