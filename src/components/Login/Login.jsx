@@ -14,7 +14,7 @@ const Login = () => {
             <input type="password" />
         </div>
         <button>Login</button>
-        <p>Forgot your password</p>
+        <a href='#' className='forgot-password'>Forgot your password ?</a>
     </div>
   )
 }
