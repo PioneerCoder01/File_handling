@@ -1,4 +1,12 @@
 .login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.login{
     width: 375px;
     display: flex;
     flex-direction: column;
@@ -7,7 +15,8 @@
 
 .login h1{
     font-size: 1.5rem;
-    border-bottom: 5px solid #333;
+    border-bottom: 3px solid #333;
+    padding-bottom: 5px;
     width: 100px;
     font-weight: lighter;
 }
@@ -29,8 +38,17 @@
 
 .login button{
     padding: 8px 15px;
-    color: #fff;
+    color: #333;
+    font-weight: 550;
     outline: none;
     border: none;
     background-color: #11d132;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.login .forgot-password{
+    font-size: 0.7rem;
+    color: #333;
+    margin-left: auto;
 }

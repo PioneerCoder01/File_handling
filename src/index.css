@@ -1,23 +1,29 @@
 @font-face {
-  font-family: 'MaPolice';
-  src: url('./assets/Font/Michroma-Regular.ttf') format('truetype');
-
+  font-family: "Michroma";
+  src: url("./assets/fonts/Michroma/Michroma-Regular.ttf");
 }
 
-*, ::before, ::after{
+
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Michroma';
 }
 
-body{
-  font-family: 'MaPolice';
+:root {
+
+  /* Color use */
+  --bg-principale : #08112A;
+  --white: #ffffff;
+
+
+  /* Contenair use */
+  --contenairOne : 90%;
+  --contenairTwo : 80%
 }
 
-.app{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+img{
+  width: 100%;
 }
+
