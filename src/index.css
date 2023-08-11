@@ -2,6 +2,10 @@
   font-family: "Michroma";
   src: url("./assets/fonts/Michroma/Michroma-Regular.ttf");
 }
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins/Poppins-Regular.ttf");
+}
 
 
 *{

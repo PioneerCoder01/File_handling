@@ -9,7 +9,7 @@
     border-radius: 10px;
     padding: 40px 20px 40px 20px;
     height: 25rem;
-    position: absolute;
+    position: fixed;
     top: 30%;
     margin-left: 5%;
 }

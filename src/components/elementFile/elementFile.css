@@ -1,0 +1,44 @@
+.elementFile {
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.elementFile .contentFile{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+
+.elementFile .contentFile .item{
+    background: var(--white);
+    height: fit-content;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.elementFile .contentFile .item .bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 10px;
+}
+
+.elementFile .contentFile .item .bottom span{
+    font-size: 12px;
+    font-family: 'Poppins';
+}
+
+  .elementFile .contentFile .small {
+    flex: 1;
+  }
+  
+  .elementFile .contentFile .medium {
+    flex: 2;
+  }
+  
+  .elementFile .contentFile .large {
+    flex: 3;
+  }
+  
+

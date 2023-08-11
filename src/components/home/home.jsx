@@ -4,6 +4,7 @@ import Navbar from '../navbar/navbar';
 // component Import
 import Header from './header/header';
 import AddPost from './AddPost/AddPost';
+import ElementFile from '../elementFile/elementFile';
 
 const Home = () =>{
     return(
@@ -12,6 +13,7 @@ const Home = () =>{
             <Navbar/>
             <div className="containerPost">
                 <AddPost/>
+                <ElementFile/>
             </div>
         </div>
     )
