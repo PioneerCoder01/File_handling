@@ -1,0 +1,52 @@
+.header{
+    padding: 30px 0px 30px 0px;
+}
+
+.header header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--contenairOne);
+    margin: auto;
+    color: var(--white);
+}
+
+
+.header .search{
+    background: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    width: 55%;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.header .search input{
+    height: 2.5rem;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.header .search span svg{
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.header header .users{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.header header .users img{
+    width:3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+}
