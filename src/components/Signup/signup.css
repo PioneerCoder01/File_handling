@@ -1,0 +1,40 @@
+.signup{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    width: 28rem;
+}
+.signup form h1{
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding: 0.4rem 0;
+    border-bottom: 0.3rem solid black;
+    width: fit-content;
+    margin-bottom: 1rem;
+}
+.signup form input{
+    padding: 0.6rem 0.5rem;
+}
+.signup form > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.signup form label{
+    font-size: 14px;
+}
+
+.signup form button{
+    height: 2.6rem;
+    border: none;
+    background: #11d132;
+    color: #fff;
+    cursor: pointer;
+}
