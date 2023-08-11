@@ -23,7 +23,7 @@
 }
 
 .input-group input{
-    padding: 8px 15px;
+    padding: 8px 10px;
     outline: none;
 }
 
@@ -31,4 +31,6 @@
     padding: 8px 15px;
     color: #fff;
     outline: none;
+    border: none;
+    background-color: #11d132;
 }
